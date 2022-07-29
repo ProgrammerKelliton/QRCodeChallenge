@@ -1,0 +1,44 @@
+.QrCode {
+    max-width: 260px;
+    height: 425px;
+    padding: 10px;
+
+    .QrCode__image {
+        width: 100%;
+    }
+    .QrCode__title,
+    .QrCode__desc {
+        padding: 0 10px;
+    }
+    .QrCode__title {
+        margin: 15px 0;
+    }
+}
+
+.QrCode {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .QrCode__image {
+        border-radius: inherit;
+    }
+    .QrCode__title,
+    .QrCode__desc {
+        text-align: center;
+    }
+    .QrCode__title {
+        font-size: clamp(1rem, 20px, 3rem);
+        color: gray;
+        font-family: "Outfit", sans-serif;
+    }
+    .QrCode__desc {
+        font-size: clamp(1rem, 15px, 2rem);
+        color: hsl(220, 15%, 55%);
+        font-family: "PT Serif", serif;
+    }
+    .QrCode__image:hover {
+        transform: scale(90%);
+        transition: transform 0.5s linear;
+    }
+}
