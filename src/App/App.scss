@@ -1,0 +1,25 @@
+@import "../global/styes.global.scss";
+
+body {
+    background-image: url("../assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+    @include flex();
+}
+
+.App {
+    background-color: rgba(187, 213, 243, 1);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.App {
+    width: 90vw;
+    height: 60vh;
+    @include flex();
+}

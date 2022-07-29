@@ -1,9 +1,10 @@
 import "./App.scss";
+import QrCode from "../components/QrCode";
 
 function App() {
     return (
         <div className="App">
-            <h1>...</h1>
+            <QrCode></QrCode>
         </div>
     );
 }
